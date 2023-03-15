@@ -1,21 +1,31 @@
-.navigation ba{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0.5rem 0;
+nav{
+  position:fixed;
+  display: inline-block;
+
 }
 
-nav {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+
+ul{
+  margin-left: 80px;
 }
 
-.nav-button > button{
-  width: 100%;
-  height: 100%;
+ul li{
+  list-style: none;
+  display:inline;
+  line-height:100px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(34, 4, 4);
+  padding:0px 20px;
+
 }
 
 img,h2 {
-  border: 30px white;
   border-radius: 55%;
   text-align: center;
   align-items:center;
@@ -24,16 +34,18 @@ img,h2 {
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
+  Color:black;
 }
 
 h4{
     color: rgb(34, 30, 30);
-    background-color: rgba(163, 238, 33, 0.875);
+    background-color:;
   }
 
    h2,h3{
     color:black
    }
+
   h3,h2{
     background-color: rgb(59, 172, 229);
      text-align: center;
@@ -46,12 +58,6 @@ h4{
     }
     
     
-    body {
-      display: flex;
-      background-color: white;
-    }
-   
-  
     .container {
       position: relative;
       width: min-content;
@@ -65,9 +71,8 @@ h4{
     }
     
     .top {
-      color: aliceblue;
+      color: rgb(5, 18, 31);
       position: relative;
-      justify-content: left;
       padding: 10px;
       flex: 2;
       text-align: center;
@@ -75,11 +80,11 @@ h4{
       margin-top: 8.5px;
       margin-bottom: 0px;
       padding-bottom: 4px;
-      background:url(https://www.bing.com/th/id/OGC.4c95f08d10d9e02dd0a0655e89f06bb7?pid=1.7&rurl=https%3a%2f%2fcsshint.com%2fwp-content%2fuploads%2f2020%2f01%2fCSS-Animated-Backgrounds-2.gif&ehk=xKWQh784JRQZK9U8K5vP0R19PC9waU5aBNTxoBBo8AU%3d);
-    }
+      background:url( https://wallup.net/wp-content/uploads/2019/09/539490-landscape-nature-beautiful-view-area-look-landscapes.jpg);
     
+    }
     .middle {
-      background-color: black;
+      background-color:rgba(212, 125, 212, 0.563);
       position: relative;
       justify-content: center;
       padding: 10px;
@@ -87,11 +92,11 @@ h4{
       text-align:center;
       margin-left: -1px;
       margin-top: -8.5px;
-      margin-bottom: 0px;
+      margin-bottom: 0px; 
     }
     
     .bottom{
-      background-color: black;
+      background-color: rgb(182, 140, 147);
       padding: left 6px;
       flex: 3;
       margin-left: 10px;
@@ -103,7 +108,7 @@ h4{
     .heading {
       color: rgb(237, 224, 228);
     }
-    
+
     .box{
       max-width: 400px;
       height: 40%;
@@ -112,17 +117,11 @@ h4{
       padding-left: 30px;
       box-shadow: 1px 1px 2px rgba(0,0,0,0,125);
     }
-  
-    .box.title{
-      font-size: 25px;
-      font-weight: 700px;
-      margin-bottom: 25px ;
-      color:black;
-      text-align: left;
-    }
-  
+
+
     .box .form{
-      width:100%;  
+      width:100%;
+
     }
   
     .box .form .input_field{
@@ -132,7 +131,7 @@ h4{
     }
     
     .box .form .input_field label{
-      width: 200px;
+      width: 150px;
       color:black;
       margin-right: 10px;
       font-size: 14px;    
@@ -161,22 +160,10 @@ h4{
     }
 
     .social-icon{
-      color: rgb(55, 58, 167);
+      color: rgb(42, 48, 232);
       transition: color 0.2s;
       text-decoration: none;
       margin: 0 2px
     
     }
 
-    @media (orientation: landscape){
-      .box{
-        color:rgb(255, 226, 192);
-      }
-    }
-
-    @media (orientation: portrait){
-      .box{
-        color:rgb(124, 202, 124);
-      }
-    }
-  
