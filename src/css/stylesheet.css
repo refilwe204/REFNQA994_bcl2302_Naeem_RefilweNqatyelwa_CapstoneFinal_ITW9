@@ -1,0 +1,182 @@
+.navigation ba{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.5rem 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-button > button{
+  width: 100%;
+  height: 100%;
+}
+
+img,h2 {
+  border: 30px white;
+  border-radius: 55%;
+  text-align: center;
+  align-items:center;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h4{
+    color: rgb(34, 30, 30);
+    background-color: rgba(163, 238, 33, 0.875);
+  }
+
+   h2,h3{
+    color:black
+   }
+  h3,h2{
+    background-color: rgb(59, 172, 229);
+     text-align: center;
+      align-items:center; 
+  }
+    
+    img{
+      position: relative;
+      top: 0px;
+    }
+    
+    
+    body {
+      display: flex;
+      background-color: white;
+    }
+   
+  
+    .container {
+      position: relative;
+      width: min-content;
+      margin: 5px;
+      display: flex;
+      max-width: 300px;
+      min-height: 1300px;
+      margin-top: 1px;
+      margin-bottom: -90px;
+      align-items: left;
+    }
+    
+    .top {
+      color: aliceblue;
+      position: relative;
+      justify-content: left;
+      padding: 10px;
+      flex: 2;
+      text-align: center;
+      margin-left: -15px;
+      margin-top: 8.5px;
+      margin-bottom: 0px;
+      padding-bottom: 4px;
+      background:url(https://www.bing.com/th/id/OGC.4c95f08d10d9e02dd0a0655e89f06bb7?pid=1.7&rurl=https%3a%2f%2fcsshint.com%2fwp-content%2fuploads%2f2020%2f01%2fCSS-Animated-Backgrounds-2.gif&ehk=xKWQh784JRQZK9U8K5vP0R19PC9waU5aBNTxoBBo8AU%3d);
+    }
+    
+    .middle {
+      background-color: black;
+      position: relative;
+      justify-content: center;
+      padding: 10px;
+      flex: 2;
+      text-align:center;
+      margin-left: -1px;
+      margin-top: -8.5px;
+      margin-bottom: 0px;
+    }
+    
+    .bottom{
+      background-color: black;
+      padding: left 6px;
+      flex: 3;
+      margin-left: 10px;
+      margin-right: 8px;
+      position: relative;
+      margin-top:-8.5px;
+    }
+    
+    .heading {
+      color: rgb(237, 224, 228);
+    }
+    
+    .box{
+      max-width: 400px;
+      height: 40%;
+      background: pink;
+      margin: 20px;
+      padding-left: 30px;
+      box-shadow: 1px 1px 2px rgba(0,0,0,0,125);
+    }
+  
+    .box.title{
+      font-size: 25px;
+      font-weight: 700px;
+      margin-bottom: 25px ;
+      color:black;
+      text-align: left;
+    }
+  
+    .box .form{
+      width:100%;  
+    }
+  
+    .box .form .input_field{
+      margin-bottom: 15px;
+      display: flex;
+      align-items: centre;  
+    }
+    
+    .box .form .input_field label{
+      width: 200px;
+      color:black;
+      margin-right: 10px;
+      font-size: 14px;    
+    }
+  
+    .box .form .input_field{
+      width: 100%;
+      color:darkgray;
+      outline: none;
+      font-size: 15px;
+      padding: 8px;
+      transition: all 0.3s ease;
+    }
+  
+    .box .form .input_field .btn{
+     font-size: 12px;
+     font: weight 500px;
+     padding: 10px 20px;
+     border-radius: 5000px;
+     transition: all 0.3s;
+     cursor: pointer;
+    }
+  
+    .box .form .input_field .last-child{
+      margin-bottom: 0;
+    }
+
+    .social-icon{
+      color: rgb(55, 58, 167);
+      transition: color 0.2s;
+      text-decoration: none;
+      margin: 0 2px
+    
+    }
+
+    @media (orientation: landscape){
+      .box{
+        color:rgb(255, 226, 192);
+      }
+    }
+
+    @media (orientation: portrait){
+      .box{
+        color:rgb(124, 202, 124);
+      }
+    }
+  
