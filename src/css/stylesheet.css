@@ -1,169 +1,171 @@
-nav{
-  position:fixed;
+nav {
+  position: fixed;
   display: inline-block;
 
 }
 
 
-ul{
-  margin-left: 80px;
+ul {
+  margin-left: 60px;
+  margin-top: -30PX
 }
 
-ul li{
+ul li {
   list-style: none;
-  display:inline;
-  line-height:100px;
+  display: inline;
+  line-height: 60px;
 
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  color:rgb(34, 4, 4);
-  padding:0px 20px;
+  color: rgb(34, 4, 4);
+  padding: 0px 20px;
 
 }
 
-img,h2 {
+img,
+h2 {
   border-radius: 55%;
   text-align: center;
-  align-items:center;
+  align-items: center;
 }
 
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  Color:black;
+  Color: black;
 }
 
-h4{
-    color: rgb(34, 30, 30);
-    background-color:;
-  }
+h4 {
+  color: rgb(34, 30, 30);
+}
 
-   h2,h3{
-    color:black
-   }
+h2,
+h3 {
+  color: black
+}
 
-  h3,h2{
-    background-color: rgb(59, 172, 229);
-     text-align: center;
-      align-items:center; 
-  }
-    
-    img{
-      position: relative;
-      top: 0px;
-    }
-    
-    
-    .container {
-      position: relative;
-      width: min-content;
-      margin: 5px;
-      display: flex;
-      max-width: 300px;
-      min-height: 1300px;
-      margin-top: 1px;
-      margin-bottom: -90px;
-      align-items: left;
-    }
-    
-    .top {
-      color: rgb(5, 18, 31);
-      position: relative;
-      padding: 10px;
-      flex: 2;
-      text-align: center;
-      margin-left: -15px;
-      margin-top: 8.5px;
-      margin-bottom: 0px;
-      padding-bottom: 4px;
-      background:url( https://wallup.net/wp-content/uploads/2019/09/539490-landscape-nature-beautiful-view-area-look-landscapes.jpg);
-    
-    }
-    .middle {
-      background-color:rgba(212, 125, 212, 0.563);
-      position: relative;
-      justify-content: center;
-      padding: 10px;
-      flex: 2;
-      text-align:center;
-      margin-left: -1px;
-      margin-top: -8.5px;
-      margin-bottom: 0px; 
-    }
-    
-    .bottom{
-      background-color: rgb(182, 140, 147);
-      padding: left 6px;
-      flex: 3;
-      margin-left: 10px;
-      margin-right: 8px;
-      position: relative;
-      margin-top:-8.5px;
-    }
-    
-    .heading {
-      color: rgb(237, 224, 228);
-    }
+h3,
+h2 {
+  background-color: rgb(59, 172, 229);
+  text-align: center;
+  align-items: center;
+}
 
-    .box{
-      max-width: 400px;
-      height: 40%;
-      background: pink;
-      margin: 20px;
-      padding-left: 30px;
-      box-shadow: 1px 1px 2px rgba(0,0,0,0,125);
-    }
+img {
+  position: relative;
+  top: 0px;
+}
 
 
-    .box .form{
-      width:100%;
+.container {
+  position: relative;
+  width: min-content;
+  margin: 5px;
+  display: flex;
+  max-width: 300px;
+  min-height: 1300px;
+  margin-top: 1px;
+  margin-bottom: 90px;
+  align-items: left;
+}
 
-    }
-  
-    .box .form .input_field{
-      margin-bottom: 15px;
-      display: flex;
-      align-items: centre;  
-    }
-    
-    .box .form .input_field label{
-      width: 150px;
-      color:black;
-      margin-right: 10px;
-      font-size: 14px;    
-    }
-  
-    .box .form .input_field{
-      width: 100%;
-      color:darkgray;
-      outline: none;
-      font-size: 15px;
-      padding: 8px;
-      transition: all 0.3s ease;
-    }
-  
-    .box .form .input_field .btn{
-     font-size: 12px;
-     font: weight 500px;
-     padding: 10px 20px;
-     border-radius: 5000px;
-     transition: all 0.3s;
-     cursor: pointer;
-    }
-  
-    .box .form .input_field .last-child{
-      margin-bottom: 0;
-    }
+.top {
+  color: rgb(5, 18, 31);
+  position: relative;
+  padding: 10px;
+  flex: 2;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 8.5px;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+  background: url(https://wallup.net/wp-content/uploads/2019/09/539490-landscape-nature-beautiful-view-area-look-landscapes.jpg);
 
-    .social-icon{
-      color: rgb(42, 48, 232);
-      transition: color 0.2s;
-      text-decoration: none;
-      margin: 0 2px
-    
-    }
+}
 
+.middle {
+  background-color: rgba(212, 125, 212, 0.563);
+  position: relative;
+  justify-content: center;
+  padding: 10px;
+  flex: 2;
+  text-align: center;
+  margin-left: 1px;
+  margin-top: 8.5px;
+  margin-bottom: 0px;
+}
+
+.bottom {
+  background-color: rgb(182, 140, 147);
+  padding: left 6px;
+  flex: 3;
+  margin-left: 10px;
+  margin-right: 8px;
+  position: relative;
+  margin-top: 8.5px;
+}
+
+.heading {
+  color: rgb(237, 224, 228);
+}
+
+.box {
+  max-width: 600px;
+  height: 40%;
+  background: pink;
+  margin: 20px;
+  padding-left:-30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0, 125);
+}
+
+
+.box .form {
+  width: 100%;
+
+}
+
+.box .form .input_field {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: right;
+}
+
+.box .form .input_field label {
+  width: 100px;
+  color: black;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.box .form .input_field {
+  width: 95%;
+  color: darkgray;
+  outline: none;
+  font-size: 15px;
+  padding: 8px;
+  transition: all 0.3s ease;
+}
+
+.box .form .input_field .btn {
+  font-size: 12px;
+  font: weight 500px;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.box .form .input_field .last-child {
+  margin-bottom: 0;
+}
+
+.social-icon {
+  color: rgb(42, 48, 232);
+  transition: color 0.2s;
+  text-decoration: none;
+  margin: 0 2px
+}
